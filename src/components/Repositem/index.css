@@ -1,0 +1,13 @@
+.activated{
+   
+    border:solid 2px #0f172a;
+}
+
+button{
+    margin:10px;
+    padding: 10px;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+    
+}
