@@ -1,0 +1,19 @@
+.filtercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    flex-wrap:wrap;
+}
+.load{
+    margin-left:45vw;
+    margin-top: 5vw;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+    margin:10px;
+}
