@@ -53,6 +53,12 @@ const languageFiltersData = [
             })
             
         }
+       if(response.status===401)
+       {
+        return(
+            <img src="https://assets.ccbp.in/frontend/react-js/api-failure-view.png"/>
+        )
+       }
         
     }
     render(){
@@ -61,6 +67,8 @@ const languageFiltersData = [
         return(
             <>
                 {/* <Repositem details={list1} activeTabLanguage={this.activeTabLanguage}/> */}
+                <h1 style={{marginLeft:"45vw"}}>Popular</h1>
+            
                <div className='nav'>
                {list1.map((item)=>(
                     <Repositem details={item} activeTabLanguage={this.activeTabLanguage} key={item.id}

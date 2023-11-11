@@ -10,6 +10,7 @@ const Repositem=(props)=>{
    
     return(
         <>
+           
            <button onClick={selectLanguage} className={`but ${activeitem}`}>{language}</button>
         </>
     )
